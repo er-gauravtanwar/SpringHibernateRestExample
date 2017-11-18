@@ -23,6 +23,7 @@ mysql> grant all on db_example.* to 'springuser'@'localhost'; -- Gives all the p
 
 
 == URL mappings
+----
 Application URL http://localhost:8080
 /user/all GET - will provide list of all users
 /user/1   GET - will show detail of 1 user
@@ -30,4 +31,5 @@ Application URL http://localhost:8080
 /user/add POST - pass 'name' and 'email' in json it will create the new user for you with details provided by you.
 /user/1 PUT - pass 'name' and 'email' in json will update the details of user 1 by new details provided by you.
 /user/1 DELETE - will delete the user 1 from db
+----
 
